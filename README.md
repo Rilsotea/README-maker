@@ -1,26 +1,26 @@
-# generate a readme thingy
+# readme maker
     
 ## Description
-creates a readme after answering questions
+makesa readme file
     
 ## Table of Contents
-all the things 
+all the things
     
 ## Installation Instructions
-just have inquirer
+no much just have inquirer
     
 ## Usage
-rune this in nodejs and answer the questions
+answer questions and a readme is made
     
 ## License
-    [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     This project is licensed under the MIT license.
     
 ## Contributing
-do not 
+do not
     
 ## Tests
-no tests should be needed
+no tests needed
     
 ## Questions
 For questions about anything involving the project contact me at:

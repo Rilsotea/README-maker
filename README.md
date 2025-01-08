@@ -1,26 +1,26 @@
-# thin air appears a readme file maker
+# generate a readme thingy
     
 ## Description
-makes areadme file out of thin air
+creates a readme after answering questions
     
 ## Table of Contents
-all the things and none 
+all the things 
     
 ## Installation Instructions
-inquirer is probably a good bet
+just have inquirer
     
 ## Usage
-answer these questions to make a readme file
+rune this in nodejs and answer the questions
     
 ## License
-    undefined
+    [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
     This project is licensed under the MIT license.
     
 ## Contributing
-do not
+do not 
     
 ## Tests
-no test only run app
+no tests should be needed
     
 ## Questions
 For questions about anything involving the project contact me at:

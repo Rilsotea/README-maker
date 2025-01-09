@@ -1,26 +1,25 @@
-# readme file maker
+# readme maker
     
 ## Description
-this project will make a readme file for a person
+makes a readme after answering questions
     
 ## Table of Contents
-whatever is required for the project
+what is needed for it
     
 ## Installation Instructions
-there is no install process
+no installation is needed
     
 ## Usage
-would type node index.js in the commandline then answer the following questions
+enter node index.js and answer questions 
     
-## License
-    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     This project is licensed under the MIT license.
     
 ## Contributing
-no contributing will be needed
+no contribute needed
     
 ## Tests
-there should be no test runs needed
+no tests should be needed
     
 ## Questions
 For questions about anything involving the project contact me at:

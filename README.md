@@ -1,32 +1,32 @@
-# README file makker
+# README file maker
     
 ## Description
 makes a readme file
     
 ## Table of Contents
 
-- Description(#description)
-- Installation Instructions(#installation-instructions)
-- Usage(#usage)
-- License(#license)
-- Contributing(#contributing)
-- Tests(#tests)
-- Questions(#questions)
+- [description]
+- [installation-instructions]
+- [usage]
+- [license]
+- [contributing]
+- [tests]
+- [questions]
     
 ## Installation Instructions
-none
+no install needed
     
 ## Usage
-answer the questions after running node index.js
+run node index.js and then answer questions
     
 ## License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     This project is licensed under the MIT license.
     
 ## Contributing
-do not help 
+do not contribute
     
 ## Tests
-no tests need to be ran
+no tests needed
     
 ## Questions
 For questions about anything involving the project contact me at:

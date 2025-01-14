@@ -47,6 +47,16 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answers) {
+  const toCSections = [
+    'Description',
+    'Installation Instructions',
+    'Usage',
+    'License',
+    'Contributing',
+    'Tests',
+    'Questions'
+  ];
+  const toClinks = toCSections.map(section => `- [${section.toLowerCase().replace(/\s+/g, '-')}]`).join('\n');
   return `
 # ${answers.projectTitle}
     
@@ -55,13 +65,7 @@ ${answers.description}
     
 ## Table of Contents
 ${answers.tableOfContents}
-- Description(#description)
-- Installation Instructions(#installation-instructions)
-- Usage(#usage)
-- License(#license)
-- Contributing(#contributing)
-- Tests(#tests)
-- Questions(#questions)
+${toClinks}
     
 ## Installation Instructions
 ${answers.installationInstructions}

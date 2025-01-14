@@ -55,6 +55,13 @@ ${answers.description}
     
 ## Table of Contents
 ${answers.tableOfContents}
+- Description(#description)
+- Installation Instructions(#installation-instructions)
+- Usage(#usage)
+- License(#license)
+- Contributing(#contributing)
+- Tests(#tests)
+- Questions(#questions)
     
 ## Installation Instructions
 ${answers.installationInstructions}

@@ -1,35 +1,36 @@
-# README file maker
+# README markdown maker
     
 ## Description
-makes a readme file
+makes a readme markdown file after some inputs
     
 ## Table of Contents
+- [Description](#description)
+- [Installation Instructions](#installation-instructions)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-- [description]
-- [installation-instructions]
-- [usage]
-- [license]
-- [contributing]
-- [tests]
-- [questions]
+## Description
+makes a readme markdown file after some inputs
     
 ## Installation Instructions
-no install needed
+npm i to install
     
 ## Usage
-run node index.js and then answer questions
-    
+node index.js then answer the questions 
+
 ## License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     This project is licensed under the MIT license.
     
 ## Contributing
-do not contribute
+do not
     
 ## Tests
-no tests needed
+no testing 
     
 ## Questions
 For questions about anything involving the project contact me at:
--GitHub: [Rilsotea](https://github.com/Rilsotea)
-
--Email: zowen17@gmail.com
+- GitHub: [Rilsotea](https://github.com/Rilsotea)
+- Email: zowen17@gmail.com

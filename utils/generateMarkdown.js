@@ -56,37 +56,63 @@ function generateMarkdown(answers) {
     'Tests',
     'Questions'
   ];
-  const toClinks = toCSections.map(section => `- [${section.toLowerCase().replace(/\s+/g, '-')}]`).join('\n');
-  return `
+  const toClinks = toCSections.map(section => `- [${section}](#${section.toLowerCase().replace(/\s+/g, '-')})`).join('\n');
+  let content = `
 # ${answers.projectTitle}
     
 ## Description
 ${answers.description}
     
 ## Table of Contents
-${answers.tableOfContents}
 ${toClinks}
+`;
+
+  if (answers.description) {
+    content += `
+## Description
+${answers.description}`;
+  }
+
+  if (answers.installationInstructions) {
+    content += `
     
 ## Installation Instructions
-${answers.installationInstructions}
+${answers.installationInstructions}`;
+  }
+
+  if (answers.usage) {
+    content += `
     
 ## Usage
-${answers.usage}
-    
-${renderLicenseSection(answers.license)}
+${answers.usage}`;
+  }
+
+
+  content += `${renderLicenseSection(answers.license)}`;
+
+  if (answers.contributing) {
+    content += `
     
 ## Contributing
-${answers.contributing}
+${answers.contributing}`;
+  }
+
+  if (answers.tests) {
+    content += `
     
 ## Tests
-${answers.tests}
+${answers.tests}`;
+  }
+
+  content += `
     
 ## Questions
 For questions about anything involving the project contact me at:
--GitHub: [${answers.githubUsername}](https://github.com/${answers.githubUsername})
+- GitHub: [${answers.githubUsername}](https://github.com/${answers.githubUsername})
+- Email: ${answers.email}
+`;
 
--Email: ${answers.email}
-`
+  return content;
 }
 
 export default generateMarkdown;

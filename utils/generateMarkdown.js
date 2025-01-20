@@ -38,7 +38,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license) {
-    return `## License ${renderLicenseBadge(license)}
+    return `${renderLicenseBadge(license)}
     This project is licensed under the ${license} license.`
   } else {
     return '';
@@ -87,8 +87,12 @@ ${answers.installationInstructions}`;
 ${answers.usage}`;
   }
 
-
-  content += `${renderLicenseSection(answers.license)}`;
+  const licenseSection = renderLicenseSection(answers.license);
+  if (licenseSection) {
+    content += `
+## License
+${licenseSection}`;
+  }
 
   if (answers.contributing) {
     content += `
